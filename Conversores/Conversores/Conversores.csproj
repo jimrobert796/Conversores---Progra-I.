@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormVolumen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVolumen.Designer.cs">
+      <DependentUpon>FormVolumen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMoneda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormVolumen.resx">
+      <DependentUpon>FormVolumen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMoneda.resx">
       <DependentUpon>FormMoneda.cs</DependentUpon>
     </EmbeddedResource>

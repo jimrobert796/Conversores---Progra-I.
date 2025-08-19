@@ -21,8 +21,8 @@ namespace Conversores
         {
 
         }
-        /* Monedas 
-                 * Balboa (PAB)
+                 /* Monedas 
+                   Balboa (PAB)
                    Colón (CRC)
                    Córdoba (NIO)
                    Dólar canadiense (CAD)
@@ -33,7 +33,6 @@ namespace Conversores
                    Peso mexicano (MXN)
                    Quetzal (GTQ)
                   */
-
 
         private double[][] conversiones = new double[][]
         {
@@ -67,7 +66,7 @@ namespace Conversores
             // 2 Cordoba a
             new double []{
                 0.0272, // Balboa
-                13.7344, // Colón costaricense}
+                13.7344, // Colón costaricense
                 1, // Córdoba
                 0.0376, // Dólar canadiense
                 0.0272, // Dólar estadounidense
@@ -81,7 +80,7 @@ namespace Conversores
             // 3 Dólar canadiense a
             new double []{
                 0.7233, // Balboa
-                365.4687, // Colón costaricense}
+                365.4687, // Colón costaricense
                 26.5962, // Córdoba
                 1, // Dólar canadiense
                 0.7236, // Dólar estadounidense
@@ -96,7 +95,7 @@ namespace Conversores
             // 4 Dólar estadounidense a
             new double []{
                 0.9996, // Balboa
-                505.1326, // Colón costaricense}
+                505.1326, // Colón costaricense
                 36.7600, // Córdoba
                 1.3820, // Dólar canadiense
                 1, // Dólar estadounidense
@@ -111,7 +110,7 @@ namespace Conversores
             // 5 lempira a
             new double []{
                 0.0379, // Balboa
-                19.1355, // Colón costaricense}
+                19.1355, // Colón costaricense
                 1.3925, // Córdoba
                 0.0524, // Dólar canadiense
                 0.0379, // Dólar estadounidense
@@ -125,7 +124,7 @@ namespace Conversores
             // 6 Euros a
             new double []{
                 1.1686, // Balboa
-                590.5000, // Colón costaricense}
+                590.5000, // Colón costaricense
                 43.0000, // Córdoba
                 1.6171, // Dólar canadiense
                 1.1706, // Dólar estadounidense
@@ -139,7 +138,7 @@ namespace Conversores
             // 6 Soles a
             new double []{
                 0.2806, // Balboa
-                141.8154, // Colón costaricense}
+                141.8154, // Colón costaricense
                 10.3203, // Córdoba
                 0.3882, // Dólar canadiense
                 0.2807, // Dólar estadounidense
@@ -153,7 +152,7 @@ namespace Conversores
             // 7 Peso mexicano a
             new double []{
                 0.0533, // Balboa
-                26.9498, // Colón costaricense}
+                26.9498, // Colón costaricense
                 1.9612, // Córdoba
                 0.0738, // Dólar canadiense
                 0.0534, // Dólar estadounidense
@@ -167,7 +166,7 @@ namespace Conversores
             // 8 Quetzal  a
             new double []{
                 0.1304, // Balboa
-                65.9148, // Colón costaricense}
+                65.9148, // Colón costaricense
                 4.7968, // Córdoba
                 0.1803, // Dólar canadiense
                 0.1305, // Dólar estadounidense

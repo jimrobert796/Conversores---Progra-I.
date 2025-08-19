@@ -10,3 +10,16 @@ C:\Users\jimmy\Desktop\Conversores---Progra-I\Conversores\Conversores\obj\Debug\
 C:\Users\jimmy\Desktop\Conversores---Progra-I\Conversores\Conversores\obj\Debug\Conversores.exe.config
 C:\Users\jimmy\Desktop\Conversores---Progra-I\Conversores\Conversores\obj\Debug\Conversores.FormConverMoned.resources
 C:\Users\jimmy\Desktop\Conversores---Progra-I\Conversores\Conversores\obj\Debug\Conversores.Form2.resources
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\bin\Debug\Conversores.exe.config
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\bin\Debug\Conversores.exe
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\bin\Debug\Conversores.pdb
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.csproj.AssemblyReference.cache
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.exe.config
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormConverMoned.resources
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormConverTiemp.resources
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.Properties.Resources.resources
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.csproj.GenerateResource.cache
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.csproj.CoreCompileInputs.cache
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.exe
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.pdb
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormConvVolum.resources

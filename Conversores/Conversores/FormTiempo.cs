@@ -62,7 +62,6 @@ namespace Conversores
                 6.04800017e14, // nanosegundos
 
             },
-            // FALTA ESTEEEEE OOOOHHHH
             // 3  dias a
             new double []{
                 0.00273785, // años
@@ -170,7 +169,7 @@ namespace Conversores
             // Da un recorrido por la matriz de conversiones
             for (int i = 0; i <= conversiones_tiempo.Length; i++)
             {
-                // Si el indice de la matriz de monedas a convertir es igual al indice de la moneda de origen seleccionada
+                // Si el indice de la matriz de tiempo es igual al origen procede a hacer los calculos
                 if (i == origen)
                 {
                     // Actualiza los labels con las conversiones

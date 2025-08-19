@@ -60,37 +60,37 @@
             // 
             this.lblNanosegundos.AutoSize = true;
             this.lblNanosegundos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNanosegundos.Location = new System.Drawing.Point(9, 387);
+            this.lblNanosegundos.Location = new System.Drawing.Point(36, 385);
             this.lblNanosegundos.Name = "lblNanosegundos";
-            this.lblNanosegundos.Size = new System.Drawing.Size(128, 16);
+            this.lblNanosegundos.Size = new System.Drawing.Size(158, 16);
             this.lblNanosegundos.TabIndex = 41;
-            this.lblNanosegundos.Text = "Nanosegundos: ?";
+            this.lblNanosegundos.Text = "Nanosegundos (ns): ?";
             // 
             // lblMicrosegundos
             // 
             this.lblMicrosegundos.AutoSize = true;
             this.lblMicrosegundos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMicrosegundos.Location = new System.Drawing.Point(9, 362);
+            this.lblMicrosegundos.Location = new System.Drawing.Point(35, 358);
             this.lblMicrosegundos.Name = "lblMicrosegundos";
-            this.lblMicrosegundos.Size = new System.Drawing.Size(129, 16);
+            this.lblMicrosegundos.Size = new System.Drawing.Size(159, 16);
             this.lblMicrosegundos.TabIndex = 42;
-            this.lblMicrosegundos.Text = "Microsegundos: ?";
+            this.lblMicrosegundos.Text = "Microsegundos (µs): ?";
             // 
             // lblMilisegundos
             // 
             this.lblMilisegundos.AutoSize = true;
             this.lblMilisegundos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMilisegundos.Location = new System.Drawing.Point(9, 336);
+            this.lblMilisegundos.Location = new System.Drawing.Point(35, 332);
             this.lblMilisegundos.Name = "lblMilisegundos";
-            this.lblMilisegundos.Size = new System.Drawing.Size(115, 16);
+            this.lblMilisegundos.Size = new System.Drawing.Size(149, 16);
             this.lblMilisegundos.TabIndex = 43;
-            this.lblMilisegundos.Text = "Milisegundos: ?";
+            this.lblMilisegundos.Text = "Milisegundos (ms): ?";
             // 
             // lblSegundos
             // 
             this.lblSegundos.AutoSize = true;
             this.lblSegundos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSegundos.Location = new System.Drawing.Point(9, 311);
+            this.lblSegundos.Location = new System.Drawing.Point(35, 307);
             this.lblSegundos.Name = "lblSegundos";
             this.lblSegundos.Size = new System.Drawing.Size(115, 16);
             this.lblSegundos.TabIndex = 44;
@@ -100,7 +100,7 @@
             // 
             this.lblMinutos.AutoSize = true;
             this.lblMinutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMinutos.Location = new System.Drawing.Point(9, 282);
+            this.lblMinutos.Location = new System.Drawing.Point(35, 278);
             this.lblMinutos.Name = "lblMinutos";
             this.lblMinutos.Size = new System.Drawing.Size(76, 16);
             this.lblMinutos.TabIndex = 45;
@@ -110,7 +110,7 @@
             // 
             this.lblHoras.AutoSize = true;
             this.lblHoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoras.Location = new System.Drawing.Point(9, 254);
+            this.lblHoras.Location = new System.Drawing.Point(35, 250);
             this.lblHoras.Name = "lblHoras";
             this.lblHoras.Size = new System.Drawing.Size(65, 16);
             this.lblHoras.TabIndex = 46;
@@ -120,7 +120,7 @@
             // 
             this.lblDias.AutoSize = true;
             this.lblDias.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDias.Location = new System.Drawing.Point(9, 226);
+            this.lblDias.Location = new System.Drawing.Point(35, 222);
             this.lblDias.Name = "lblDias";
             this.lblDias.Size = new System.Drawing.Size(55, 16);
             this.lblDias.TabIndex = 40;
@@ -130,7 +130,7 @@
             // 
             this.lblSemanas.AutoSize = true;
             this.lblSemanas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSemanas.Location = new System.Drawing.Point(9, 196);
+            this.lblSemanas.Location = new System.Drawing.Point(35, 192);
             this.lblSemanas.Name = "lblSemanas";
             this.lblSemanas.Size = new System.Drawing.Size(88, 16);
             this.lblSemanas.TabIndex = 39;
@@ -140,7 +140,7 @@
             // 
             this.lblMeses.AutoSize = true;
             this.lblMeses.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeses.Location = new System.Drawing.Point(9, 167);
+            this.lblMeses.Location = new System.Drawing.Point(35, 163);
             this.lblMeses.Name = "lblMeses";
             this.lblMeses.Size = new System.Drawing.Size(65, 16);
             this.lblMeses.TabIndex = 38;
@@ -149,10 +149,10 @@
             // lblNombreConvertidorMonedas
             // 
             this.lblNombreConvertidorMonedas.AutoSize = true;
-            this.lblNombreConvertidorMonedas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreConvertidorMonedas.Location = new System.Drawing.Point(199, 8);
+            this.lblNombreConvertidorMonedas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreConvertidorMonedas.Location = new System.Drawing.Point(214, 33);
             this.lblNombreConvertidorMonedas.Name = "lblNombreConvertidorMonedas";
-            this.lblNombreConvertidorMonedas.Size = new System.Drawing.Size(217, 24);
+            this.lblNombreConvertidorMonedas.Size = new System.Drawing.Size(244, 25);
             this.lblNombreConvertidorMonedas.TabIndex = 37;
             this.lblNombreConvertidorMonedas.Text = "Convertidor de tiempo";
             // 
@@ -160,7 +160,7 @@
             // 
             this.lblAños.AutoSize = true;
             this.lblAños.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAños.Location = new System.Drawing.Point(9, 137);
+            this.lblAños.Location = new System.Drawing.Point(35, 133);
             this.lblAños.Name = "lblAños";
             this.lblAños.Size = new System.Drawing.Size(58, 16);
             this.lblAños.TabIndex = 35;
@@ -169,9 +169,9 @@
             // btnConvertir
             // 
             this.btnConvertir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvertir.Location = new System.Drawing.Point(502, 93);
+            this.btnConvertir.Location = new System.Drawing.Point(514, 178);
             this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(139, 72);
+            this.btnConvertir.Size = new System.Drawing.Size(127, 118);
             this.btnConvertir.TabIndex = 34;
             this.btnConvertir.Text = "Convertir";
             this.btnConvertir.UseVisualStyleBackColor = true;
@@ -207,7 +207,7 @@
             this.groupBox1.Controls.Add(this.rbMeses);
             this.groupBox1.Controls.Add(this.rbAños);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(346, 93);
+            this.groupBox1.Location = new System.Drawing.Point(365, 93);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(143, 259);
             this.groupBox1.TabIndex = 47;
@@ -321,7 +321,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 410);
+            this.ClientSize = new System.Drawing.Size(653, 421);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblNanosegundos);
             this.Controls.Add(this.lblMicrosegundos);

@@ -50,7 +50,7 @@
             // 
             this.lblQuetzal.AutoSize = true;
             this.lblQuetzal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuetzal.Location = new System.Drawing.Point(8, 408);
+            this.lblQuetzal.Location = new System.Drawing.Point(35, 408);
             this.lblQuetzal.Name = "lblQuetzal";
             this.lblQuetzal.Size = new System.Drawing.Size(175, 16);
             this.lblQuetzal.TabIndex = 25;
@@ -60,7 +60,7 @@
             // 
             this.lblPesoMexicano.AutoSize = true;
             this.lblPesoMexicano.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPesoMexicano.Location = new System.Drawing.Point(8, 383);
+            this.lblPesoMexicano.Location = new System.Drawing.Point(35, 383);
             this.lblPesoMexicano.Name = "lblPesoMexicano";
             this.lblPesoMexicano.Size = new System.Drawing.Size(129, 16);
             this.lblPesoMexicano.TabIndex = 26;
@@ -70,7 +70,7 @@
             // 
             this.lblSolPeruano.AutoSize = true;
             this.lblSolPeruano.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSolPeruano.Location = new System.Drawing.Point(8, 357);
+            this.lblSolPeruano.Location = new System.Drawing.Point(35, 357);
             this.lblSolPeruano.Name = "lblSolPeruano";
             this.lblSolPeruano.Size = new System.Drawing.Size(108, 16);
             this.lblSolPeruano.TabIndex = 27;
@@ -80,7 +80,7 @@
             // 
             this.lblEuro.AutoSize = true;
             this.lblEuro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEuro.Location = new System.Drawing.Point(8, 332);
+            this.lblEuro.Location = new System.Drawing.Point(35, 332);
             this.lblEuro.Name = "lblEuro";
             this.lblEuro.Size = new System.Drawing.Size(55, 16);
             this.lblEuro.TabIndex = 28;
@@ -90,7 +90,7 @@
             // 
             this.lblLempiraHondureño.AutoSize = true;
             this.lblLempiraHondureño.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLempiraHondureño.Location = new System.Drawing.Point(8, 303);
+            this.lblLempiraHondureño.Location = new System.Drawing.Point(35, 303);
             this.lblLempiraHondureño.Name = "lblLempiraHondureño";
             this.lblLempiraHondureño.Size = new System.Drawing.Size(159, 16);
             this.lblLempiraHondureño.TabIndex = 29;
@@ -100,7 +100,7 @@
             // 
             this.lblDolarEstadounidense.AutoSize = true;
             this.lblDolarEstadounidense.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDolarEstadounidense.Location = new System.Drawing.Point(8, 275);
+            this.lblDolarEstadounidense.Location = new System.Drawing.Point(35, 275);
             this.lblDolarEstadounidense.Name = "lblDolarEstadounidense";
             this.lblDolarEstadounidense.Size = new System.Drawing.Size(176, 16);
             this.lblDolarEstadounidense.TabIndex = 30;
@@ -110,7 +110,7 @@
             // 
             this.lblDolarCanadiense.AutoSize = true;
             this.lblDolarCanadiense.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDolarCanadiense.Location = new System.Drawing.Point(8, 247);
+            this.lblDolarCanadiense.Location = new System.Drawing.Point(35, 247);
             this.lblDolarCanadiense.Name = "lblDolarCanadiense";
             this.lblDolarCanadiense.Size = new System.Drawing.Size(146, 16);
             this.lblDolarCanadiense.TabIndex = 24;
@@ -120,7 +120,7 @@
             // 
             this.lblCordoba.AutoSize = true;
             this.lblCordoba.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCordoba.Location = new System.Drawing.Point(8, 217);
+            this.lblCordoba.Location = new System.Drawing.Point(35, 217);
             this.lblCordoba.Name = "lblCordoba";
             this.lblCordoba.Size = new System.Drawing.Size(184, 16);
             this.lblCordoba.TabIndex = 23;
@@ -130,7 +130,7 @@
             // 
             this.lblColonCostaricense.AutoSize = true;
             this.lblColonCostaricense.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblColonCostaricense.Location = new System.Drawing.Point(8, 188);
+            this.lblColonCostaricense.Location = new System.Drawing.Point(35, 188);
             this.lblColonCostaricense.Name = "lblColonCostaricense";
             this.lblColonCostaricense.Size = new System.Drawing.Size(158, 16);
             this.lblColonCostaricense.TabIndex = 22;
@@ -139,10 +139,10 @@
             // lblNombreConvertidorMonedas
             // 
             this.lblNombreConvertidorMonedas.AutoSize = true;
-            this.lblNombreConvertidorMonedas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreConvertidorMonedas.Location = new System.Drawing.Point(198, 29);
+            this.lblNombreConvertidorMonedas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreConvertidorMonedas.Location = new System.Drawing.Point(192, 43);
             this.lblNombreConvertidorMonedas.Name = "lblNombreConvertidorMonedas";
-            this.lblNombreConvertidorMonedas.Size = new System.Drawing.Size(240, 24);
+            this.lblNombreConvertidorMonedas.Size = new System.Drawing.Size(269, 25);
             this.lblNombreConvertidorMonedas.TabIndex = 21;
             this.lblNombreConvertidorMonedas.Text = "Convertidor de monedas";
             // 
@@ -160,7 +160,7 @@
             // 
             this.lblBalboas.AutoSize = true;
             this.lblBalboas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBalboas.Location = new System.Drawing.Point(8, 158);
+            this.lblBalboas.Location = new System.Drawing.Point(35, 158);
             this.lblBalboas.Name = "lblBalboas";
             this.lblBalboas.Size = new System.Drawing.Size(151, 16);
             this.lblBalboas.TabIndex = 19;
@@ -169,9 +169,9 @@
             // btnConvertir
             // 
             this.btnConvertir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvertir.Location = new System.Drawing.Point(504, 63);
+            this.btnConvertir.Location = new System.Drawing.Point(501, 188);
             this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(139, 72);
+            this.btnConvertir.Size = new System.Drawing.Size(125, 131);
             this.btnConvertir.TabIndex = 18;
             this.btnConvertir.Text = "Convertir";
             this.btnConvertir.UseVisualStyleBackColor = true;
