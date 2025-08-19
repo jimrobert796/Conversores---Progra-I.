@@ -1,6 +1,6 @@
 ﻿namespace Conversores
 {
-    partial class FormConverMoned
+    partial class FormMoneda
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -214,7 +214,7 @@
             this.cboOrigen.Size = new System.Drawing.Size(156, 21);
             this.cboOrigen.TabIndex = 15;
             // 
-            // FormConverMoned
+            // FormMoneda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -235,7 +235,7 @@
             this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.lblNum1);
             this.Controls.Add(this.cboOrigen);
-            this.Name = "FormConverMoned";
+            this.Name = "FormMoneda";
             this.Text = "Convertidor de Monedas";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

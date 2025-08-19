@@ -1,6 +1,6 @@
 ﻿namespace Conversores
 {
-    partial class FormConvVolum
+    partial class FormVolumen
     {
         /// <summary>
         /// Required designer variable.
@@ -230,7 +230,7 @@
             this.lblOrigen.Text = "Origen del volumen:";
             this.lblOrigen.Click += new System.EventHandler(this.lblOrigen_Click);
             // 
-            // FormConvVolum
+            // FormVolumen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -251,7 +251,7 @@
             this.Controls.Add(this.lblnum1);
             this.Controls.Add(this.cboOrigen);
             this.Controls.Add(this.btnConvertir);
-            this.Name = "FormConvVolum";
+            this.Name = "FormVolumen";
             this.RightToLeftLayout = true;
             this.Text = "Convertidor Volumen";
             this.ResumeLayout(false);

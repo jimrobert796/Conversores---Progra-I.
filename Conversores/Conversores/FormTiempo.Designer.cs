@@ -1,6 +1,6 @@
 ﻿namespace Conversores
 {
-    partial class FormConverTiemp
+    partial class FormTiempo
     {
         /// <summary>
         /// Required designer variable.
@@ -317,7 +317,7 @@
             this.rbAños.Text = "Años";
             this.rbAños.UseVisualStyleBackColor = true;
             // 
-            // FormConverTiemp
+            // FormTiempo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -337,7 +337,7 @@
             this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.lblNum1);
-            this.Name = "FormConverTiemp";
+            this.Name = "FormTiempo";
             this.Text = "Convertidor de Tiempo";
             this.Load += new System.EventHandler(this.FormConverTiemp_Load);
             this.groupBox1.ResumeLayout(false);

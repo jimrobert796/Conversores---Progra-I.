@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Conversores
 {
-    public partial class FormConverTiemp : Form
+    public partial class FormTiempo : Form
     {
-        public FormConverTiemp()
+        public FormTiempo()
         {
             InitializeComponent();
         }

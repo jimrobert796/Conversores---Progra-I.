@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Conversores
 {
-    public partial class FormConvVolum : Form
+    public partial class FormVolumen : Form
     {
-        public FormConvVolum()
+        public FormVolumen()
         {
             InitializeComponent();
         }
