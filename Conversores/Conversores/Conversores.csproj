@@ -52,6 +52,12 @@
     <Compile Include="FormAlmacenamiento.Designer.cs">
       <DependentUpon>FormAlmacenamiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLongitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLongitud.Designer.cs">
+      <DependentUpon>FormLongitud.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMasa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAlmacenamiento.resx">
       <DependentUpon>FormAlmacenamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLongitud.resx">
+      <DependentUpon>FormLongitud.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMasa.resx">
       <DependentUpon>FormMasa.cs</DependentUpon>

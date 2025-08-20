@@ -49,7 +49,10 @@ namespace Conversores
 
         private void btnLongitud_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); // esconde la ventana actual
+            FormLongitud ventanaLongitud = new FormLongitud();
+            ventanaLongitud.ShowDialog(); // Muestra la ventana de conversión de volumen
+            this.Show();
         }
 
         private void btnAlmacenamiento_Click(object sender, EventArgs e)

@@ -26,3 +26,4 @@ C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.
 C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormTiempo.resources
 C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormAlmacenamiento.resources
 C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormMenu.resources
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormLongitud.resources
