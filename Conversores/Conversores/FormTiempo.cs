@@ -186,13 +186,13 @@ namespace Conversores
 
                     lblMinutos.Text= "Minutos = " + cantidad * conversiones_tiempo[i][5];
 
-                    lblSegundos.Text = "Segundos = " + cantidad * conversiones_tiempo[i][6];
+                    lblSegundos.Text = "Segundos = " + cantidad * conversiones_tiempo[i][6] + " s";
 
-                    lblMilisegundos.Text = " Milisegundos = " + cantidad * conversiones_tiempo[i][7];
+                    lblMilisegundos.Text = " Milisegundos = " + cantidad * conversiones_tiempo[i][7] +  " ms";
 
-                    lblMicrosegundos.Text = "Microsegundos = " + cantidad * conversiones_tiempo[i][8];
+                    lblMicrosegundos.Text = "Microsegundos = " + cantidad * conversiones_tiempo[i][8] + " µs";
 
-                    lblNanosegundos.Text = "Nanosegundos = " + cantidad * conversiones_tiempo[i][9];
+                    lblNanosegundos.Text = "Nanosegundos = " + cantidad * conversiones_tiempo[i][9] + " ns";
 
                 }
             }
@@ -202,15 +202,23 @@ namespace Conversores
         private void btnConvertir_Click(object sender, EventArgs e)
         {
             double cantidad = 0;
-            
 
-            // Validar si se ingresa la cantidad Ing.Cordero nos enseño sobre los messageBox
-            if (txtNum1.Text == "")
+            if (string.IsNullOrWhiteSpace(txtNum1.Text)) // Validar si se ingresa la cantidad
             {
-                MessageBox.Show("Por favor, ingrese una cantidad de dinero válida.");
+                // Si no se ingresa cantidad, muestra un mensaje de error
+                MessageBox.Show("Por favor, ingrese una cantidad válida.");
                 return;
             }
 
+            // Validar si se ingresa la cantidad Ing.Cordero nos enseño sobre los messageBox
+            if (!double.TryParse(txtNum1.Text, out cantidad)) // Verifica si lo que se ingresa es numero
+            {
+                // Si no es un número válido, muestra un mensaje de error
+                MessageBox.Show("La cantidad ingresada no es un número válido.");
+                return;
+            }
+
+           
             cantidad = double.Parse(txtNum1.Text); // Convertir el texto a un número la cantidad de tiempo
           
 
@@ -261,6 +269,11 @@ namespace Conversores
         private void FormConverTiemp_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close(); // Cierra la ventana de conversión de tiempo
         }
     }
 
