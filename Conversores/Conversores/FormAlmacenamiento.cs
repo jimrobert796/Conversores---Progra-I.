@@ -233,5 +233,10 @@ namespace Conversores
 
             conver(cantidad, origen); // Llama a la función de conversión
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close(); // Cierra la ventana de conversión de almacenamiento
+        }
     }
 }

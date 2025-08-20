@@ -53,6 +53,7 @@
             this.rbSemanas = new System.Windows.Forms.RadioButton();
             this.rbMeses = new System.Windows.Forms.RadioButton();
             this.rbAños = new System.Windows.Forms.RadioButton();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -169,7 +170,7 @@
             // btnConvertir
             // 
             this.btnConvertir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvertir.Location = new System.Drawing.Point(514, 178);
+            this.btnConvertir.Location = new System.Drawing.Point(514, 155);
             this.btnConvertir.Name = "btnConvertir";
             this.btnConvertir.Size = new System.Drawing.Size(127, 118);
             this.btnConvertir.TabIndex = 34;
@@ -317,11 +318,23 @@
             this.rbAños.Text = "Años";
             this.rbAños.UseVisualStyleBackColor = true;
             // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Location = new System.Drawing.Point(516, 307);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(125, 76);
+            this.btnCerrar.TabIndex = 64;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
             // FormTiempo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(653, 421);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblNanosegundos);
             this.Controls.Add(this.lblMicrosegundos);
@@ -374,5 +387,6 @@
         private System.Windows.Forms.RadioButton rbSemanas;
         private System.Windows.Forms.RadioButton rbMeses;
         private System.Windows.Forms.RadioButton rbAños;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }

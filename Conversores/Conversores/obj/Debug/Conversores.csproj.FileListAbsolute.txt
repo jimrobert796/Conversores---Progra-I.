@@ -25,3 +25,4 @@ C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.
 C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormMoneda.resources
 C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormTiempo.resources
 C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormAlmacenamiento.resources
+C:\Users\jimmy\Desktop\repo nuevo\Conversores\Conversores\obj\Debug\Conversores.FormMenu.resources

@@ -288,5 +288,10 @@ namespace Conversores
 
             }
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close(); // Cierra la ventana de conversión de monedas
+        }
     }
 }

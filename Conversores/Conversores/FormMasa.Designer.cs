@@ -44,6 +44,7 @@
             this.txtNum1 = new System.Windows.Forms.TextBox();
             this.lblNum1 = new System.Windows.Forms.Label();
             this.cboOrigen = new System.Windows.Forms.ComboBox();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMiligramo
@@ -215,11 +216,23 @@
             this.cboOrigen.Size = new System.Drawing.Size(156, 21);
             this.cboOrigen.TabIndex = 63;
             // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Location = new System.Drawing.Point(504, 314);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(125, 76);
+            this.btnCerrar.TabIndex = 79;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
             // FormMasa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 408);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.lblMiligramo);
             this.Controls.Add(this.lblToneladaMetrica);
             this.Controls.Add(this.lblStone);
@@ -261,5 +274,6 @@
         private System.Windows.Forms.TextBox txtNum1;
         private System.Windows.Forms.Label lblNum1;
         private System.Windows.Forms.ComboBox cboOrigen;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }

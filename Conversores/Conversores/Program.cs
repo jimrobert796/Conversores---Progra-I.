@@ -21,11 +21,8 @@ namespace Conversores
             // aqui solo incia el 2 en este caso para su funcionalidad
             //Application.Run(new FormConverMoned());
 
-            Application.Run(new FormMasa());
-            Application.Run(new FormMoneda());
-            Application.Run(new FormTiempo());
-            Application.Run(new FormVolumen());
-            Application.Run(new FormAlmacenamiento());
+            Application.Run(new FormMenu());
+            
         }
     }
 }
