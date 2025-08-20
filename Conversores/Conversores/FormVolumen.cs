@@ -181,10 +181,17 @@ namespace Conversores
 
             int origen = cboOrigen.SelectedIndex; // Obtiene el índice de la unidad de origen seleccionada
 
-            // Validar si se ingresa la cantidad
-            if (txtNum1.Text == "")
+            if (string.IsNullOrWhiteSpace(txtNum1.Text)) // Validar si se ingresa la cantidad
             {
+                // Si no se ingresa cantidad, muestra un mensaje de error
                 MessageBox.Show("Por favor, ingrese una cantidad válida.");
+                return;
+            }
+
+            if (!double.TryParse(txtNum1.Text, out cantidad)) // Verifica si lo que se ingresa es numero
+            {
+                // Si no es un número válido, muestra un mensaje de error
+                MessageBox.Show("La cantidad ingresada no es un número válido.");
                 return;
             }
 

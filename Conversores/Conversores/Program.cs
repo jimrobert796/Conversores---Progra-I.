@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web;
 using System.Windows.Forms;
 
 namespace Conversores
@@ -21,6 +22,10 @@ namespace Conversores
             //Application.Run(new FormConverMoned());
 
             Application.Run(new FormMasa());
+            Application.Run(new FormMoneda());
+            Application.Run(new FormTiempo());
+            Application.Run(new FormVolumen());
+            Application.Run(new FormAlmacenamiento());
         }
     }
 }

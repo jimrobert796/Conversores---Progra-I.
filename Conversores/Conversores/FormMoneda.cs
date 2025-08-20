@@ -224,13 +224,23 @@ namespace Conversores
             int origen = cboOrigen.SelectedIndex; // Obtiene el indice de la moneda de origen seleccionada
 
             // Validar si se ingresa la cantidad de dinero Ing.Cordero nos enseño sobre los messageBox
-            if (txtNum1.Text == "")
+            if (string.IsNullOrWhiteSpace(txtNum1.Text)) 
             {
-                MessageBox.Show("Por favor, ingrese una cantidad de dinero válida.");
+                // Si no se ingresa cantidad, muestra un mensaje de error
+                MessageBox.Show("Por favor, ingrese una cantidad válida.");
+                return;
+            }
+
+            // Validar si se ingresa la cantidad Ing.Cordero nos enseño sobre los messageBox
+            if (!double.TryParse(txtNum1.Text, out cantidad)) // Verifica si lo que se ingresa es numero
+            {
+                // Si no es un número válido, muestra un mensaje de error
+                MessageBox.Show("La cantidad ingresada no es un número válido.");
                 return;
             }
 
             cantidad = double.Parse(txtNum1.Text); // Convertir el texto a un número la cantidad de dinero
+
 
             // Mostrar mensaje de error si no se selecciona la moneda de origen
             if (cboOrigen.SelectedIndex == -1)
@@ -239,6 +249,8 @@ namespace Conversores
                 MessageBox.Show("Por favor selecione la moneda de origen");
                 return;
             }
+
+         
 
             // En los 10 casos posibles de monedas se llama a la funcion conver dependiendo el origen seleccionado
             switch (cboOrigen.SelectedIndex)

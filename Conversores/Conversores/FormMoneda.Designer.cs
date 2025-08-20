@@ -140,7 +140,7 @@
             // 
             this.lblNombreConvertidorMonedas.AutoSize = true;
             this.lblNombreConvertidorMonedas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreConvertidorMonedas.Location = new System.Drawing.Point(192, 43);
+            this.lblNombreConvertidorMonedas.Location = new System.Drawing.Point(188, 36);
             this.lblNombreConvertidorMonedas.Name = "lblNombreConvertidorMonedas";
             this.lblNombreConvertidorMonedas.Size = new System.Drawing.Size(269, 25);
             this.lblNombreConvertidorMonedas.TabIndex = 21;

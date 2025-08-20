@@ -68,110 +68,110 @@
             // lblBarril
             // 
             this.lblBarril.AutoSize = true;
-            this.lblBarril.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBarril.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBarril.Location = new System.Drawing.Point(55, 379);
             this.lblBarril.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBarril.Name = "lblBarril";
-            this.lblBarril.Size = new System.Drawing.Size(105, 17);
+            this.lblBarril.Size = new System.Drawing.Size(96, 16);
             this.lblBarril.TabIndex = 27;
             this.lblBarril.Text = "Barril (bbl): ?";
             // 
             // lblCuarto
             // 
             this.lblCuarto.AutoSize = true;
-            this.lblCuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCuarto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCuarto.Location = new System.Drawing.Point(55, 350);
             this.lblCuarto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCuarto.Name = "lblCuarto";
-            this.lblCuarto.Size = new System.Drawing.Size(106, 17);
+            this.lblCuarto.Size = new System.Drawing.Size(95, 16);
             this.lblCuarto.TabIndex = 26;
             this.lblCuarto.Text = "Cuarto (qt): ?";
             // 
             // lblPinta
             // 
             this.lblPinta.AutoSize = true;
-            this.lblPinta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPinta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPinta.Location = new System.Drawing.Point(55, 318);
             this.lblPinta.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPinta.Name = "lblPinta";
-            this.lblPinta.Size = new System.Drawing.Size(95, 17);
+            this.lblPinta.Size = new System.Drawing.Size(85, 16);
             this.lblPinta.TabIndex = 25;
             this.lblPinta.Text = "Pinta (pt): ?";
             // 
             // lblOnza_liquida
             // 
             this.lblOnza_liquida.AutoSize = true;
-            this.lblOnza_liquida.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOnza_liquida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOnza_liquida.Location = new System.Drawing.Point(55, 292);
             this.lblOnza_liquida.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOnza_liquida.Name = "lblOnza_liquida";
-            this.lblOnza_liquida.Size = new System.Drawing.Size(166, 17);
+            this.lblOnza_liquida.Size = new System.Drawing.Size(151, 16);
             this.lblOnza_liquida.TabIndex = 24;
             this.lblOnza_liquida.Text = "Onza líquida (fl oz): ?";
             // 
             // lblGalon_UK
             // 
             this.lblGalon_UK.AutoSize = true;
-            this.lblGalon_UK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGalon_UK.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGalon_UK.Location = new System.Drawing.Point(55, 266);
             this.lblGalon_UK.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGalon_UK.Name = "lblGalon_UK";
-            this.lblGalon_UK.Size = new System.Drawing.Size(197, 17);
+            this.lblGalon_UK.Size = new System.Drawing.Size(184, 16);
             this.lblGalon_UK.TabIndex = 23;
             this.lblGalon_UK.Text = "Galón imperial (gal UK): ?";
             // 
             // lblGalon_EEUU
             // 
             this.lblGalon_EEUU.AutoSize = true;
-            this.lblGalon_EEUU.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGalon_EEUU.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGalon_EEUU.Location = new System.Drawing.Point(55, 236);
             this.lblGalon_EEUU.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGalon_EEUU.Name = "lblGalon_EEUU";
-            this.lblGalon_EEUU.Size = new System.Drawing.Size(255, 17);
+            this.lblGalon_EEUU.Size = new System.Drawing.Size(240, 16);
             this.lblGalon_EEUU.TabIndex = 22;
             this.lblGalon_EEUU.Text = "Galón estadounidense (gal US): ?";
             // 
             // lblCentimetro_cubico
             // 
             this.lblCentimetro_cubico.AutoSize = true;
-            this.lblCentimetro_cubico.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCentimetro_cubico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCentimetro_cubico.Location = new System.Drawing.Point(55, 206);
             this.lblCentimetro_cubico.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCentimetro_cubico.Name = "lblCentimetro_cubico";
-            this.lblCentimetro_cubico.Size = new System.Drawing.Size(200, 17);
+            this.lblCentimetro_cubico.Size = new System.Drawing.Size(186, 16);
             this.lblCentimetro_cubico.TabIndex = 21;
             this.lblCentimetro_cubico.Text = "Centímetro cúbico (cm³): ?";
             // 
             // lblMililitro
             // 
             this.lblMililitro.AutoSize = true;
-            this.lblMililitro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMililitro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMililitro.Location = new System.Drawing.Point(55, 143);
             this.lblMililitro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMililitro.Name = "lblMililitro";
-            this.lblMililitro.Size = new System.Drawing.Size(117, 17);
+            this.lblMililitro.Size = new System.Drawing.Size(107, 16);
             this.lblMililitro.TabIndex = 20;
             this.lblMililitro.Text = "Mililitro (mL): ?";
             // 
             // lblMetro_cubico
             // 
             this.lblMetro_cubico.AutoSize = true;
-            this.lblMetro_cubico.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMetro_cubico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMetro_cubico.Location = new System.Drawing.Point(55, 176);
             this.lblMetro_cubico.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMetro_cubico.Name = "lblMetro_cubico";
-            this.lblMetro_cubico.Size = new System.Drawing.Size(155, 17);
+            this.lblMetro_cubico.Size = new System.Drawing.Size(143, 16);
             this.lblMetro_cubico.TabIndex = 19;
             this.lblMetro_cubico.Text = "Metro cúbico (m³): ?";
             // 
             // lblLitro
             // 
             this.lblLitro.AutoSize = true;
-            this.lblLitro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLitro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLitro.Location = new System.Drawing.Point(55, 114);
             this.lblLitro.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLitro.Name = "lblLitro";
-            this.lblLitro.Size = new System.Drawing.Size(94, 17);
+            this.lblLitro.Size = new System.Drawing.Size(83, 16);
             this.lblLitro.TabIndex = 18;
             this.lblLitro.Text = "Litros (L): ?";
             // 
@@ -225,9 +225,9 @@
             this.lblOrigen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOrigen.Location = new System.Drawing.Point(386, 57);
             this.lblOrigen.Name = "lblOrigen";
-            this.lblOrigen.Size = new System.Drawing.Size(145, 16);
+            this.lblOrigen.Size = new System.Drawing.Size(131, 16);
             this.lblOrigen.TabIndex = 30;
-            this.lblOrigen.Text = "Origen del volumen:";
+            this.lblOrigen.Text = "Unidad de origen:";
             this.lblOrigen.Click += new System.EventHandler(this.lblOrigen_Click);
             // 
             // FormVolumen
